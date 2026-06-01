@@ -1,0 +1,13 @@
+{
+    "feature_columns": [
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Rotational speed [rpm]",
+        "Torque [Nm]",
+        "Tool wear [min]"
+    ],
+    "target_column": "Machine failure",
+    "accuracy": 0.977,
+    "model_type": "KNeighborsClassifier",
+    "n_neighbors": 5
+}
